@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Endproject_</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AvaloniaXaml Remove="x64\**" />
+    <Compile Remove="FakesAssemblies\**" />
+    <Compile Remove="x64\**" />
+    <EmbeddedResource Remove="FakesAssemblies\**" />
+    <EmbeddedResource Remove="x64\**" />
+    <None Remove="FakesAssemblies\**" />
+    <None Remove="x64\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AfriCircleImage" Version="1.0.0" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.0" />
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.4" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalDesignTimeBuildInput Remove="FakesAssemblies\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="x64\combit.ListLabel25.Export.x64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="x64\System.Data.SQLite.x64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="x64\DocumentFormat.OpenXml.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Panels\" />
+  </ItemGroup>
+
+</Project>

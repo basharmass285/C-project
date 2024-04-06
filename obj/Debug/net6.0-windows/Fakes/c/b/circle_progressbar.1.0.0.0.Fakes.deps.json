@@ -1,0 +1,566 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "circle_progressbar.1.0.0.0.Fakes/1.0.0": {
+        "dependencies": {
+          "Microsoft.QualityTools.Testing.Fakes": "12.0.0.0",
+          "Microsoft.VisualBasic": "10.1.0.0",
+          "Microsoft.VisualBasic.Forms": "6.0.2.0",
+          "Microsoft.Win32.Registry.AccessControl": "6.0.0.0",
+          "Microsoft.Win32.SystemEvents": "6.0.0.0",
+          "ProgressRing.Forms.Plugin": "1.0.6460.16364",
+          "System.CodeDom": "6.0.0.0",
+          "System.Configuration.ConfigurationManager": "6.0.0.0",
+          "System.Data.SqlClient": "4.6.1.5",
+          "System.Design": "6.0.2.0",
+          "System.Diagnostics.EventLog": "6.0.0.0",
+          "System.Diagnostics.PerformanceCounter": "6.0.0.0",
+          "System.DirectoryServices": "4.0.0.0",
+          "System.Drawing.Design": "6.0.2.0",
+          "System.Drawing": "6.0.2.0",
+          "System.IO.Packaging": "6.0.0.0",
+          "System.Resources.Extensions": "6.0.0.0",
+          "System.Security.Cryptography.Pkcs": "6.0.0.0",
+          "System.Security.Cryptography.ProtectedData": "6.0.0.0",
+          "System.Security.Cryptography.Xml": "6.0.0.0",
+          "System.Security.Permissions": "6.0.0.0",
+          "System.Threading.AccessControl": "6.0.0.0",
+          "System.Windows.Extensions": "6.0.0.0",
+          "System.Windows.Forms.Design": "6.0.2.0",
+          "System.Windows.Forms.Design.Editors": "6.0.2.0",
+          "Xamarin.Forms.Core": "2.0.0.0",
+          "Xamarin.Forms.Platform": "1.0.0.0",
+          "Xamarin.Forms.Xaml": "2.0.0.0",
+          "System.Windows.Forms": "0.0.0.0",
+          "System.Windows.Forms.Primitives": "0.0.0.0",
+          "System.Drawing.Common": "0.0.0.0",
+          "Accessibility": "0.0.0.0"
+        },
+        "runtime": {
+          "circle_progressbar.1.0.0.0.Fakes.dll": {}
+        }
+      },
+      "Microsoft.QualityTools.Testing.Fakes/12.0.0.0": {
+        "runtime": {
+          "Microsoft.QualityTools.Testing.Fakes.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "16.1100.21.30815"
+          }
+        },
+        "resources": {
+          "cs/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "cs"
+          },
+          "de/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "de"
+          },
+          "es/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "fr"
+          },
+          "it/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "it"
+          },
+          "ja/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ko"
+          },
+          "pl/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "pl"
+          },
+          "pt-BR/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ru"
+          },
+          "tr/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "tr"
+          },
+          "zh-Hans/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.VisualBasic/10.1.0.0": {
+        "runtime": {
+          "Microsoft.VisualBasic.dll": {
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "Microsoft.VisualBasic.Forms/6.0.2.0": {
+        "runtime": {
+          "Microsoft.VisualBasic.Forms.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "Microsoft.Win32.Registry.AccessControl/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Win32.Registry.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "ProgressRing.Forms.Plugin/1.0.6460.16364": {
+        "runtime": {
+          "ProgressRing.Forms.Plugin.dll": {
+            "assemblyVersion": "1.0.6460.16364",
+            "fileVersion": "1.0.6460.16364"
+          }
+        }
+      },
+      "System.CodeDom/6.0.0.0": {
+        "runtime": {
+          "System.CodeDom.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0.0": {
+        "runtime": {
+          "System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.6.1.5": {
+        "runtime": {
+          "System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.5",
+            "fileVersion": "4.700.22.51706"
+          }
+        }
+      },
+      "System.Design/6.0.2.0": {
+        "runtime": {
+          "System.Design.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/6.0.0.0": {
+        "runtime": {
+          "System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/6.0.0.0": {
+        "runtime": {
+          "System.Diagnostics.PerformanceCounter.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.DirectoryServices/4.0.0.0": {
+        "runtime": {
+          "System.DirectoryServices.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Drawing.Design/6.0.2.0": {
+        "runtime": {
+          "System.Drawing.Design.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "System.Drawing/6.0.2.0": {
+        "runtime": {
+          "System.Drawing.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "System.IO.Packaging/6.0.0.0": {
+        "runtime": {
+          "System.IO.Packaging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Resources.Extensions/6.0.0.0": {
+        "runtime": {
+          "System.Resources.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Security.Cryptography.Pkcs/6.0.0.0": {
+        "runtime": {
+          "System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/6.0.0.0": {
+        "runtime": {
+          "System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Security.Cryptography.Xml/6.0.0.0": {
+        "runtime": {
+          "System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Security.Permissions/6.0.0.0": {
+        "runtime": {
+          "System.Security.Permissions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Threading.AccessControl/6.0.0.0": {
+        "runtime": {
+          "System.Threading.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Windows.Extensions/6.0.0.0": {
+        "runtime": {
+          "System.Windows.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Windows.Forms.Design/6.0.2.0": {
+        "runtime": {
+          "System.Windows.Forms.Design.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "System.Windows.Forms.Design.Editors/6.0.2.0": {
+        "runtime": {
+          "System.Windows.Forms.Design.Editors.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "Xamarin.Forms.Core/2.0.0.0": {
+        "runtime": {
+          "Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms.Platform/1.0.0.0": {
+        "runtime": {
+          "Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms.Xaml/2.0.0.0": {
+        "runtime": {
+          "Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "System.Windows.Forms/0.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "System.Windows.Forms.Primitives/0.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.Primitives.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "System.Drawing.Common/0.0.0.0": {
+        "runtime": {
+          "System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "Accessibility/0.0.0.0": {
+        "runtime": {
+          "Accessibility.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "System.Drawing.Common.Reference/6.0.0.0": {
+        "runtime": {
+          "System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1623.17311"
+          }
+        }
+      },
+      "System.Windows.Forms.Primitives.Reference/6.0.2.0": {
+        "runtime": {
+          "System.Windows.Forms.Primitives.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "System.Windows.Forms.Reference/6.0.2.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      },
+      "Accessibility.Reference/4.0.0.0": {
+        "runtime": {
+          "Accessibility.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.1623.17402"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "circle_progressbar.1.0.0.0.Fakes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.QualityTools.Testing.Fakes/12.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualBasic/10.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualBasic.Forms/6.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.Registry.AccessControl/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProgressRing.Forms.Plugin/1.0.6460.16364": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.CodeDom/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Configuration.ConfigurationManager/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SqlClient/4.6.1.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Design/6.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Diagnostics.EventLog/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Diagnostics.PerformanceCounter/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.DirectoryServices/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Drawing.Design/6.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Drawing/6.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IO.Packaging/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Resources.Extensions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Pkcs/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.ProtectedData/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Xml/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Permissions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Threading.AccessControl/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Extensions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.Design/6.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.Design.Editors/6.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Xamarin.Forms.Core/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Xamarin.Forms.Platform/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Xamarin.Forms.Xaml/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.Primitives/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Drawing.Common/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accessibility/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Drawing.Common.Reference/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.Primitives.Reference/6.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.Reference/6.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accessibility.Reference/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
